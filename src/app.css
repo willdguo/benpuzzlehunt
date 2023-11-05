@@ -1,0 +1,29 @@
+html {
+    padding-left: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+.puzzle {
+    display: flex; 
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.puzzle .images {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+  
+.puzzle .images img {
+    width: 40%; /* Set the width to 100% to make them the same width */
+    display: block; /* Make them block-level elements for vertical stacking */
+    margin-bottom: 10px; /* Add some spacing between the images */
+}
+
+.answerbox {
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
