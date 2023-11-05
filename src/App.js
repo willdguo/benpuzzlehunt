@@ -25,7 +25,7 @@ function App() {
         The answer to these puzzles can be integers, words, or letters.
         Unless explicitly stated, all answers should be in lowercase. 
       </p>
-      <p> Guessing is permitted. Have fun. </p>
+      <p> Guessing is permitted. Use of the internet is mandatory. Have fun. </p>
 
       <button onClick = {() => handleDisplay(1)}> Puzzle 1 </button>
       <button onClick = {() => handleDisplay(2)}> Puzzle 2 </button>
