@@ -8,6 +8,7 @@ const AnswerBox = ( {answer, id} ) => {
 
     useEffect(() => {
         if(localStorage.getItem(id) && localStorage.getItem(id) === 'True'){
+            clearTimeout(msgTimer.current)
             setMsg(`Correct! ${answer} is the answer.`)
         }
     }, [])
@@ -18,6 +19,7 @@ const AnswerBox = ( {answer, id} ) => {
 
     const handleSubmit = (e) => {
         if(input.trim().toLowerCase() == answer.toLowerCase()){
+            clearTimeout(msgTimer.current)
             setMsg(`Correct! ${answer} is the answer.`)
             localStorage.setItem(id, 'True')
         } else {

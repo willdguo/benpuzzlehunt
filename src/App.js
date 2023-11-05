@@ -19,7 +19,7 @@ function App() {
   
   return (
     <div>
-      <h1> Birthday Puzzle Hunt </h1>
+      <h1> Ben's Puzzle Hunt </h1>
       <p> Another year older, another year wiser. </p>
       <p> 
         The answer to these puzzles can be integers, words, or letters.

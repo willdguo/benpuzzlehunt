@@ -17,7 +17,7 @@ const Alphabet = () => {
                 b - 1 = ? <AnswerBox answer = "a" id = "32" />
                 u / c = ? <AnswerBox answer = "g" id = "33" />
                 b x g = ? <AnswerBox answer = "n" id = "34" />
-                x x 3 / f = ? <AnswerBox answer = "i" id = "35" />
+                x x 3 / h = ? <AnswerBox answer = "i" id = "35" />
                 x x 3 / f = ? <AnswerBox answer = "t" id = "36" />
                 + w 3 n + y  = ? <AnswerBox answer = "t" id = "37"/>
                 a + e = ? <AnswerBox answer = "h" id = "38" />
